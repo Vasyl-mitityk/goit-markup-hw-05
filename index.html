@@ -52,7 +52,7 @@
            <div class="contenier">
                 <h1 class="title-main">Эффективные решения для вашего бизнеса</h1>
                     <button  type="button" class="title-but" data-modal-open>Заказать услугу</button>
-                    
+           </div>    
         </section>
 
 
@@ -413,6 +413,52 @@
                     <use href="./imeges/sprite.svg#btn-close-black" ></use>
                 </svg>
             </button>
+            <form action="#" class="modal-form">
+                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+
+                <label  class="modal-form-input-label">Имя
+                    <span class="modal-form-wrapper">
+                        <input type="text" name="user-name" class="modal-form-input">
+                        <svg class="modal-form-icon">
+                            <use href="./imeges/sprite.svg#name"></use>
+                        </svg>
+                    </span>
+                </label>
+                
+
+                <label class="modal-form-input-label">Телефон
+                    <span class="modal-form-wrapper">
+                        <input type="tel" name="user-phone" class="modal-form-input">
+                        <svg class="modal-form-icon">
+                            <use href="./imeges/sprite.svg#phone"></use>
+                        </svg>
+                    </span>
+                </label>
+               
+
+                <label  class="modal-form-input-label">Почта
+                    <span class="modal-form-wrapper">
+                        <input type="email" name="user-email" class="modal-form-input">
+                        <svg class="modal-form-icon">
+                            <use href="./imeges/sprite.svg#Message"></use>
+                        </svg>
+                    </span>
+                </label>
+               
+
+                <label class="modal-form-input-label">Комментарий
+                    <textarea name="user-massage"   class="modal-form-message" placeholder="Введите текст"></textarea>
+                </label>
+               
+
+                <input type="checkbox" name="user-policy" id="police-check" class="modal-form-check-policy visually-hidden">
+                <label for="police-check" class="modal-form-label-policy">Соглашаюсь с рассылкой и принимаю<a href="#" class="modal-form-label-link">Условия договора</a></label>
+                <button type="submit" class="modal-form-btn">Отправить</button>
+
+
+                
+
+            </form>
         </div>
     </div>
 
