@@ -60,7 +60,7 @@
 
         <section class="section-services">
             <div class="contenier">
-                    <h2 hidden>Підзаголовок</h2>
+                    <h2 class="section-services-title visually-hidden">Підзаголовок</h2>
                 <ul class="section-services-activ">
                     <li class="section-services-details">
                        <div class="section-services-backg"> 
@@ -402,7 +402,17 @@
                     </a>
                 </li>
             </ul>
-        </div>
+            </div>
+            <form action="#" class="footer-form">
+                <p class="footer-form-title">Подпишитесь на рассылку</p>
+                <input type="email" name="user-email" class="footer-form-mail" placeholder="E-mail">
+                <button type="submit" class="footer-form-btn">Подписаться
+                    <svg class="footer-form-icon">
+                        <use href="/imeges/sprite.svg#icon-send"></use>
+                    </svg>
+                </button> 
+            </form>
+
         </div>
     </footer>
 
@@ -413,6 +423,7 @@
                     <use href="./imeges/sprite.svg#btn-close-black" ></use>
                 </svg>
             </button>
+
             <form action="#" class="modal-form">
                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
 
